@@ -1,0 +1,181 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 12px;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+}
+
+header h1 a {
+    font-size: 200%;
+    float: left;
+    font-weight: 50;
+    padding: 25px 20px;
+    text-decoration: blue;
+    color: red;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li, nav a {
+    display: inline-block;
+    font-size: 120%;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 25px 20px;
+    color: #00ccff;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.active {
+    color: orangered;
+}
+
+
+
+h2 {
+    color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+h4 {
+    color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.hero-img{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#home {
+    background-image: url(img/);
+}
+
+
+.hero-img {
+    padding-top:20%;
+    padding-left:15%;
+}
+
+.hero-img h2 {
+    font-size: 800%;
+}
+.hero-img h4 {
+    font-size: 400%;
+    color: solid white
+}
+
+#top-text {
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+#sub-text {
+    animation-duration: 4s;
+    animation-delay:1s;
+}
+
+
+#text {
+    background-color: rgb(0, 0, 0);
+    font-size: 150%;
+    padding: 20px;
+    line-height: 200%;
+    text-align: justify;
+    color: grey;
+}
+
+#pagetext {
+    background-color: rgb(0, 0, 0);
+    font-size: 150%;
+    padding: 20px;
+    line-height: 200%;
+    text-align: justify;
+    color: grey;
+}
+
+footer {
+    padding: 20px;
+    font-size: 30px;
+    background-color: #2a2a2a;
+    text-align: center;
+}
