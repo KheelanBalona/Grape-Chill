@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    color: white;
+    color: #F0E082;
     font-size: 12px;
     font-family: 'Cabin', sans-serif;
 }
@@ -21,7 +21,7 @@ header h1 a {
     float: left;
     font-weight: 50;
     padding: 25px 20px;
-    text-decoration: blue;
+    text-decoration: red;
     color: #00ccff;
 }
 
@@ -171,7 +171,7 @@ h4 {
     padding: 20px;
     line-height: 200%;
     text-align: justify;
-    color: grey;
+    color: #ffffff;
 }
 
 footer {
