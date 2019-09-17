@@ -131,6 +131,9 @@ h4 {
     background-image: url(img/homemars.jpg);
 }
 
+#base {
+    background-image: url(img/base.jpg);
+}
 
 .hero-img {
     padding-top:20%;
