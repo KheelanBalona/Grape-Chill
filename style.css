@@ -135,6 +135,10 @@ h4 {
     background-image: url(img/base.jpg);
 }
 
+#pos {
+    background-image: url(img/good.jpg);
+}
+
 .hero-img {
     padding-top:20%;
     padding-left:15%;
