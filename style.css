@@ -139,6 +139,14 @@ h4 {
     background-image: url(img/good.jpg);
 }
 
+#neg {
+    background-image: url(img/neg.jpg);
+}
+
+#how {
+    background-image: url(img/how.jpg);
+}
+
 .hero-img {
     padding-top:20%;
     padding-left:15%;
